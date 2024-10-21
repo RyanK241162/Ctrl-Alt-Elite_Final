@@ -1,0 +1,118 @@
+
+
+.logoBox {
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.rec{
+    color: white;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+
+}
+
+body{
+    background-color: black;
+}
+
+.icons{
+    text-align: center;
+    width: 150;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    vertical-align: top;
+}
+
+.wButton{
+    background-color: #2e0044;
+    color: white;
+    border-radius: 15px;
+    width: 245px;
+    height: 57px;
+    text-align: center;
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.name{
+    /* width: 336mm; */
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif; 
+}
+
+.description{
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-right: 0mm;
+}
+
+a{
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.year{
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.rating{
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.movie{
+    width: 208px;
+    height: 312px;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+.plus{
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.moviePoster{
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+.title{
+    color: white;
+    font-size: 43px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.movies{
+    width: 208px;
+    height: 312px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.search{
+    text-align: center;
+    width: 150;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    vertical-align: bottom;
+}
