@@ -116,3 +116,21 @@ a{
     padding-top: 20px;
     vertical-align: bottom;
 }
+
+.topSearch input[type=text] {
+    justify-content: center;
+    padding: 6px;
+    border: white;
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    background: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+
+.topSearch {
+    justify-self: center;
+}
