@@ -1,8 +1,9 @@
 const myHeaders = new Headers();
-myHeaders.append("x-apihub-key", "D5jgFjdgUucCeXb1TNpXK8EsLsNY8rEVLnsIuIPY4ueFx5x0l4");
+myHeaders.append("x-apihub-key", "C2zTxZ8U8Mmx37xMJiO2vR-DkgsfDErhw0nljLPYFn7Nud2ut6");
 myHeaders.append("x-apihub-host", "Movies-Verse.allthingsdev.co");
 myHeaders.append("x-apihub-endpoint", "06344c37-2a53-4936-be17-34568bdc31ab");
 myHeaders.append("Content-Type", "application/json");
+
 
 function fetchMovieData(query) {
     const raw = JSON.stringify({ "query": query }); // Request payload
@@ -41,6 +42,6 @@ function fetchMovieData(query) {
     if (ratingElement) ratingElement.innerText = movie.rank || "N/A"; // rank as a placeholder for rating
   
     // Set the poster image if `.movie-poster` element exists (optional)
-    const posterElement = document.querySelector('.movie-poster');
-    if (posterElement) posterElement.style.backgroundImage = `url(${movie.i.imageUrl})`;
+    const posterImage = document.querySelector('.moviePoster img');
+    if (posterImage) posterImage.src = movie.i.imageUrl; // Set new src from API result
   }

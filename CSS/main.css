@@ -134,3 +134,11 @@ a{
 .topSearch {
     justify-self: center;
 }
+
+.moviePoster img {
+    border-radius: 15px; /* Adjust value for desired corner roundness */
+    max-width: 100%; /* Ensures the image does not exceed the container width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes any inline space */
+    object-fit: cover; /* Ensures the image covers its container proportionally */
+}
