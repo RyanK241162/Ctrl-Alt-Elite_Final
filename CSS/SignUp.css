@@ -46,6 +46,8 @@ body {
   align-content: center;
 }
 
+
+
 .container .title::before {
   content: "";
   position: absolute;
@@ -172,4 +174,17 @@ form .button input:hover {
   .container .content .category {
     flex-direction: column;
   }
+}
+
+/* Added cause i thought user should know why they are being yelled at -K */
+#feedback-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  min-height: 20px; 
+  max-height: 40px; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  display: block;
 }

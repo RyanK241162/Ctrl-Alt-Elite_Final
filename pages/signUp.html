@@ -21,29 +21,32 @@
         <div class="title">To Start Streaming</div>
         <div class="content">
             <!-- Sign Up Form -->
-            <form action="#">
+            <form action="#" id="signupForm">
                 <div class="user-details">
                     <!-- Username -->
                     <div class="input-box">
-                        <span class="details">Username</span>
-                        <input type="text" placeholder="Username" required>
+                        <span class="details-label">Username</span>
+                        <input type="text" id="signup-username" class="input-field" placeholder="Username" required>
                     </div>
                     <!-- Password -->
                     <div class="input-box">
-                        <span class="details">Password</span>
-                        <input type="text" placeholder="Password" required>
+                        <span class="details-label">Password</span>
+                        <input type="password" id="signup-password" class="input-field" placeholder="Password" required>
                     </div>
+
                     <!-- Submit Button -->
                     <div class="button">
-                        <input type="submit" value="Continue">
+                        <input type="submit" class="signup-submit" value="Continue">
                     </div>
+                </div>
             </form>
-        </div>
-    </div>
     <div class="signUpTest">
         <p>Have an account already? <a href="../pages/LogIn.html">Log in here.</a>
     </div>
+                        <!-- Feedback Message -->
+                        <div id="feedback-message" class="feedback-message"></div>
     </p>
+    <script src="../JS/signup.js"></script>
 </body>
 
 </html>
