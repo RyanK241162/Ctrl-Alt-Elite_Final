@@ -135,10 +135,40 @@ a{
     justify-self: center;
 }
 
+
+/* added for js functionality */
 .moviePoster img {
-    border-radius: 15px; /* Adjust value for desired corner roundness */
-    max-width: 100%; /* Ensures the image does not exceed the container width */
-    height: auto; /* Maintains the aspect ratio */
-    display: block; /* Removes any inline space */
-    object-fit: cover; /* Ensures the image covers its container proportionally */
+    padding-left: 30%;
+    border-radius: 15px; 
+    max-width: 50%;
+    height: auto; 
+    display: block;
+    object-fit: cover; 
+}
+
+td.movie img {
+    width: 250px; 
+    height: auto; 
+    max-height: 300px; 
+    object-fit: cover; 
+    border-radius: 15px; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.movie-rec{
+    width: 208px;
+    height: 312px;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+td.movie-rec img {
+    width: 250px; 
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover; 
+    border-radius: 15px; 
+    display: block; 
+    margin: 0 auto; 
 }

@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
-    <table>
+    <table class ="test">
       <tr>
         <td class="logoBox"><img src="../assets/VVIcons/VVIcons/Desktop Icons/Desktop_Logo2.png" height="150" length="150"></td>
         <td colspan="2"></td>
@@ -69,13 +69,20 @@
         <td class="rec" colspan="2">Top 10 Movies</td></tr>
       <tr>
         <td width="150">empty</td>
-        <td class="movie"><img src="../assets/image copy.png"></td>
-        <td class="movie"><img src="../assets/image copy.png"></td>
-        <td class="movie"><img src="../assets/image copy.png"></td>
-        <td class="movie"><img src="../assets/image copy.png"></td>
-        <td class="movie"><img src="../assets/image copy.png"></td>
-        <td class="movie"><img src="../assets/image copy.png"></td>
+        <td class="movie-rec"><img src="../assets/image copy.png"></td>
+        <td class="movie-rec"><img src="../assets/image copy.png"></td>
+        <td class="movie-rec"><img src="../assets/image copy.png"></td>
+        <td class="movie-rec"><img src="../assets/image copy.png"></td>
+        <td class="movie-rec"><img src="../assets/image copy.png"></td>
+        <td class="movie-rec"><img src="../assets/image copy.png"></td>
       </tr>
     </table> 
+    <script src="../JS/populateMovieText.js"></script>
+        <script src="../JS/UpdateMovieImages.js"></script>
+        <script></script>
+        <script>
+            updateMovieImages('action') //Used due to lack of html compat
+            updateTopMovies();
+          </script>
   </body>
 </html>
