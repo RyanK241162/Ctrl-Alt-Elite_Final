@@ -1,4 +1,4 @@
-// Function to update movie images dynamically
+
 function updateMovieImages(genre) {
   const myHeaders = new Headers();
   myHeaders.append(
@@ -22,14 +22,14 @@ function updateMovieImages(genre) {
     .then((data) => {
       const movies = data.movies;
 
-      // Select all img elements within table cells with class 'movie'
+      // Select all img with 'movie' tag
       const imgElements = document.querySelectorAll("td.movie img");
 
-      // Update each image source with a unique movie poster
+      // Update imgs
       imgElements.forEach((img, index) => {
         if (movies[index] && movies[index].image) {
           img.src = movies[index].image;
-          img.alt = movies[index].title; // Add alt attribute for accessibility
+          img.alt = movies[index].title; // alt text cause im cool like that
         }
       });
     })
@@ -63,7 +63,6 @@ function updateMovieTitles(genre) {
 
       imgElements.forEach((img, index) => {
         if (movies[index] && movies[index].title) {
-          // Create a title element below each image if it doesn't exist
           let titleElement = img.nextElementSibling;
           if (
             !titleElement ||
@@ -108,7 +107,7 @@ function updateTopMovies() {
       imgElements.forEach((img, index) => {
         if (movies[index] && movies[index].image) {
           img.src = movies[index].image;
-          img.alt = movies[index].title; // Set alt attribute for accessibility
+          img.alt = movies[index].title; //alt text cause im cool like that
         }
       });
     })
